@@ -1,0 +1,195 @@
+/*  Fichier CSS de bas
+     Par: Caroline Khoury
+    Date: 30 mai 2024
+     MAJ:
+*/
+
+body {
+    margin: auto; /* Marge automatique pour centrer le texte horizontalement */
+    text-align: justify; /* justifie le texte */
+    font-family: 'Orbitron', sans-serif; /* la police orbitron */
+    font-size: 20px; /* Police a 16px */
+    background-color: #0c0c0c; /* couleur de fond noir */
+    color: #ffffff; /* Couleur de texte blanche */
+    width: 964px; /* Largeur de l'élément , du texte */
+    font-weight: bolder; /* texte plus gras*/
+}
+
+.menu-bar {
+    border-bottom: 1px solid #00ffff; /* Bordure inférieure turquoise*/
+}
+
+.menu-bar ul { /* Style de la liste dans la barre de menu */
+    list-style-type: none; /* Pas de puces */
+    margin: 0; /* Annule la marge par défaut */
+    padding: 15px;  /* Ajoute un espace intérieur de 15px */
+    text-align: center; /* Aligner le texte au centre */
+}
+
+.menu-bar ul li { /* Style des éléments de la liste dans la barre de menu */
+    display: inline-block; /*  affiche le contenu de la barre menu horizontalement */
+    margin: 0 20px; /* ajoute de l'espace de 20px */
+}
+
+.menu-bar ul li a {
+    text-decoration: none; /* Pas de soulignement pour les liens */
+    color: #00ffff; /* turquoise */
+    padding: 10px 15px; /* espace intrieur */
+    border-radius: 5px; /* Arrondit les coins */
+    font-size: 20px;  /* La taille du texte a 20px*/
+}
+
+.menu-bar ul li a:hover {
+    background-color: #00ffff; /* fond turquoise */
+    color: #0c0c0c; /* texte noir */
+    box-shadow: 0 0 15px #00ffff; /* effet de brillance */
+    font-weight: bolder; /* texte plus gras*/
+}
+
+.menu-bar ul li a:active {
+    background-color: #009999; /* plus foncé */
+    color: #ffffff; /* texte blanc */
+    font-weight: bolder; /* texte plus gras*/
+}
+
+a {
+    color: rgb(255, 255, 255); /* Les liens en blanc */
+    padding: 5px;
+    font-size: 14px;
+}
+
+.images-container {
+    display: flex; /* Utiliser flexbox pour la mise en page */
+    justify-content: space-between; 
+    margin-bottom: 20px; /* Ajouter une marge en bas pour l'espacement */
+}
+
+.images-container a {
+    flex-basis: 48%; /* Définir la largeur de chaque image à 48% du conteneur */
+}
+
+.images-container img {
+    width: 100%; /* Assurer que les images remplissent leurs conteneurs */
+}
+
+.images-container {
+    display: flex; /* Utiliser flexbox pour le positionnement */
+    justify-content: center; /* Centrer les images */
+}
+
+.images-container img {
+    width: 350px;
+    margin: 0 10px; /* Ajouter de l'espacement entre les images */
+}
+
+.tony {
+    background-image: url(https://www.telegraph.co.uk/content/dam/films/2016/04/28/tonystark2_trans_NvBQzQNjv4BqeuRHplZSizlnIpEPA_wgci-oMky92GODLj7YayikDrk.jpg);
+    height: 3300px; /* pour modifier la hauteur */
+    background-position: top; /* placer l'image en haut */
+    background-size: 1900px; /* Redimensionner l'image de fond pour couvrir tout le conteneur */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+    background-attachment: fixed;  /* faire en sorte que limage ne continue pas en descendant la page*/
+}
+
+p {
+    margin: auto; /* Marge automatique pour centrer le texte horizontalement */
+    text-align: justify; /* Justifier le texte*/
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 16px;
+    color: #ffffff; 
+    width: 964px;
+    font-weight: bolder; /* texte plus gras*/
+}
+
+.ironman {
+    background-image: url(https://wallpaper.dog/large/947905.jpg);
+    height: 2000px; /* Vous devez définir une hauteur spécifiée */
+    background-position: top; /* placer l'image en haut */
+    background-size: 1900px; /* Redimensionner l'image de fond pour couvrir tout le conteneur */
+    background-attachment: fixed;
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+}
+
+p {
+    margin: auto; 
+    text-align: justify; /* justifier le texte*/
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px; /* taille du texte a 16px */
+    color: #ffd000; 
+    font-weight: bolder; /* texte plus gras*/
+    width: 964px;
+}
+
+.relations {
+    background-image: url(https://id.jugomobile.com/wp-content/uploads/2021/12/Tom-Holland-Robert-Downey-Jr-Bersatu-Kembali-Untuk-Pertama.jpg);
+    height: 1000px; /* Permet de changer la hauteur de l'image */
+    background-position: top; /* Positionner l'image plus haut */
+    background-repeat: no-repeat; /* Pour que l'image de fond ne se répète pas */
+    background-size: 1900px; /* Pour changer la taille de l'image de fond */
+    background-attachment: fixed;
+}
+
+p {
+    margin: auto;
+    text-align: justify; /* Justifier le texte
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px; /* La taille du texte est maintenant à 16 px */
+    color: #2a83ff; /* Couleur du texte en bleu ciel */
+    font-weight: bolder; /* Rend le texte plus gras */
+    width: 964px; 
+}
+
+.villains {
+    background-image: url(https://img.goodfon.com/original/2972x1981/e/1b/zheleznyy-chelovek-2-iron-man-2-2729.jpg);
+    height: 300px; /* Vous devez définir une hauteur spécifiée */
+    background-position: top; /* Centrer l'image */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+    background-attachment: fixed;
+    background-size: 1600px; /* Permet de changer la taille de l'image de fond */
+}
+
+p {
+    margin: auto; /* Marge automatique pour centrer le texte horizontalement */
+    text-align: justify;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px; /* taille du texte */
+    color: #ffffff; /* couleur du texte , blanche */
+    font-weight: bolder; /* texte plus gras*/
+    width: 964px;
+}
+
+.tony p { 
+    color: white; /* couleur blanche du paragraphe */
+}
+
+.relations p {  
+    color: #6fd5f5; /* couleur bleu du paragraphe */
+}
+
+.ironman p {  
+    color: white;  /* couleur blanche du paragraphe */
+}
+
+.villains p {  
+    color: white;  /* couleur blanche du paragraphe */
+}
+
+.tony img { 
+    border: solid navy; /* donne une bordure bleu marin */
+    border-width: 5px; /* une bordure épaisse de 5px */
+}
+   
+.relations img {
+    border: solid navy; /* donne une bordure bleu marin */
+    border-width: 5px; /* une bordure épaisse de 5px */
+}
+
+.villains img {
+    border: solid navy; /* donne une bordure bleu marin */
+    border-width: 5px;  /* une bordure épaisse de 5px */
+}
+
+.ironman img {
+    border: solid navy; /* donne une bordure bleu marin */
+    border-width: 5px; /* une bordure épaisse de 5px */
+}
